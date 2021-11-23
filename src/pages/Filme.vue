@@ -12,9 +12,7 @@
         <router-link tag="button" to="/">Ver mais filmes</router-link>
         <button @click="salvarFilme">Salvar</button>
         <button>
-          <a :h-ref="`https://youtube.com/results?search_query=${filme.nome}`" target="blank">
-            Trailer
-          </a>
+          <a :href="`https://www.youtube.com/results?search_query=${filme.nome}`" target="blank">Trailer</a>
         </button>
       </div>
     </div>
